@@ -1,0 +1,17 @@
+.dashboard_layout {
+  display: grid;
+  grid-template-columns: 1.5fr 4.5fr;
+  min-height: 100vh;
+  overflow-x: hidden;
+  .sidebar_container {
+    position: relative;
+    padding: 2rem;
+    background-color: #0f2841;
+  }
+  .dashboard_container {
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+  }
+}

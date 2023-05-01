@@ -1,0 +1,38 @@
+.sidebar_component {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  align-items: start;
+  position: fixed;
+  left: 2rem;
+  top: 2rem;
+  img {
+    height: 30px;
+  }
+  .sidebar_nav {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    width: 100%;
+    span {
+      display: flex;
+      align-items: center;
+      gap: 1rem;
+      font-size: 1rem;
+      color: #fff;
+      cursor: pointer;
+      width: 100%;
+
+      img {
+        width: 1.5rem;
+        height: fit-content;
+      }
+    }
+    .active {
+      border-right: 2px solid #fff;
+      box-shadow: -75px 0px 134px -85px rgba(255, 255, 255, 0.26) inset;
+      -webkit-box-shadow: -75px 0px 134px -85px rgba(255, 255, 255, 0.26) inset;
+      -moz-box-shadow: -75px 0px 134px -85px rgba(255, 255, 255, 0.26) inset;
+    }
+  }
+}
